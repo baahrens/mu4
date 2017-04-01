@@ -6,9 +6,9 @@ Options:
   -d, --dir       Directory with mp3 files to convert             [required]
   -c, --cover     Cover file to use. Defaults to Cover.jpg
   -o, --output    Output directory. Defaults to the input directory
-  -p, --parallel  How many files to convert in parallel. Defaults to 5
-  -m, --metadata  Whether to get metadata and name the file "[Artist] -
-                  [Title]". Defaults to false
+  -p, --parallel  How many files to process in parallel. Defaults to 5
+  -m, --metadata  Whether to get metadata and name the file       [boolean]
+                  "[Artist] - [Title]". Defaults to false
   -h, --help      show help                                       [boolean]
 
 Examples:
