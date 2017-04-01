@@ -1,0 +1,16 @@
+{
+  "name": "mu4",
+  "version": "0.0.1",
+  "description": "",
+  "main": "convert.js",
+  "author": "Bastian Ahrens",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.2.0",
+    "cli-spinner": "^0.2.6",
+    "fluent-ffmpeg": "^2.1.0",
+    "globby": "^6.1.0",
+    "winston": "^2.3.1",
+    "yargs": "^7.0.2"
+  }
+}
