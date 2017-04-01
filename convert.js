@@ -58,7 +58,7 @@ Converter.prototype.scanFiles = function() {
   this.cover = path.join(this.directory, this.cover)
 
   return globby(mp3Pattern).then(files => {
-    if (!files || !files.length) throw new Error("Invalid directory. Either it does no exist or there are no mp3s in it.")
+    if (!files || !files.length) throw new Error("Invalid directory. Either it does not exist or there are no mp3s in it.")
     if (!fs.existsSync(this.cover)) throw new Error(`"${this.cover}" does not exist`)
 
     return this.files = files
