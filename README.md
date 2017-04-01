@@ -14,7 +14,7 @@ Options:
 Examples:
   node convert.js -d /some/dir/with/mp3s -p 15         converts all mp3s to mp4 using
                                                        Cover.jpg while processing 15 files in parallel
-  node convert.js -d /some/dir/with/mp3s -c front.jpg  converts all mp3s to mp4 using
+  node convert.js -d /some/dir/with/mp3s -c front.jpg  converts all mp3s to mp4 using front.jpg as background image
   node convert.js -d /some/dir/with/mp3s -m            converts all mp3s to mp4 using their
                                                        metadata to name the output files [Artist] - [Title]
   node convert.js -d /some/dir/with/mp3s -o some/dir   converts all mp3s to mp4 using the specified output directory
